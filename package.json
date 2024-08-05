@@ -30,6 +30,7 @@
     "packages/**/bin/*": "eslint --fix"
   },
   "devDependencies": {
+    "@achrinza/node-ipc": "10.1.11",
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
@@ -75,7 +76,10 @@
     "yorkie": "^2.0.0"
   },
   "resolutions": {
-    "puppeteer": "1.13.0"
+    "@achrinza/node-ipc": "10.1.11",
+    "puppeteer": "1.13.0",
+    "@apollo/federation": "0.27.0",
+    "@verdaccio/auth": "6.0.0-6-next.55"
   },
   "packageManager": "yarn@1.22.11"
 }
